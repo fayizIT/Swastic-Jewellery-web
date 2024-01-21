@@ -1,10 +1,9 @@
-
-import './CategoriesSection.css'; // Import your stylesheet
+import './CategoriesSection.css'; 
 import bracelet from '../assets/bracelet.png';
 import necklace from '../assets/necklace.png';
 import earring from '../assets/earring.png'
 
-// import earring from '../assets/earring.jpg'; // Replace with the actual image path
+
 
 const CategoriesSection = () => {
   return (

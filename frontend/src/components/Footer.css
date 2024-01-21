@@ -1,8 +1,8 @@
 /* Footer.css */
 
 .footer {
-    background-color: white; /* Background color for Support, About Us, and Terms sections */
-    color: #333; /* Text color for Support, About Us, and Terms sections */
+    background-color: white; 
+    color: #333; 
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack items vertically on small screens */

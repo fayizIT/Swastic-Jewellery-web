@@ -1,4 +1,4 @@
-import './FeaturedSection.css'; // Import your stylesheet
+import './FeaturedSection.css'; 
 
 const FeaturedSection = () => {
     const sectionStyle = {

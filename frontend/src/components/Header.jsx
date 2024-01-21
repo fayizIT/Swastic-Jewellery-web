@@ -1,10 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faSearch, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import UpperHeader from './UpperHeader'; // Import the UpperHeader component
-import './Header.css'; // Import your stylesheet
-import logo from '../assets/logo.png'; // Replace with the actual logo path
-
+import UpperHeader from './UpperHeader'; 
+import logo from '../assets/logo.png'; 
 const Header = () => {
   return (
     <div>

@@ -1,5 +1,4 @@
-
-import './UpperHeader.css' // Import your stylesheet
+import './UpperHeader.css' 
 
 
 const UpperHeader = () => {

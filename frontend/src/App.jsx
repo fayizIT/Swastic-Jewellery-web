@@ -2,6 +2,7 @@ import FeaturedSection from './components/FeaturedSection';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import CategoriesSection from './components/CategoriesSection';
+import Heritage from './components/Heritage';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Header/>
     <FeaturedSection/>
     <CategoriesSection/>
+    <Heritage/>
     <Footer/>
    </div>
   );

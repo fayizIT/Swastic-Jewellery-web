@@ -1,0 +1,63 @@
+/* Footer.css */
+
+.footer {
+    background-color: white; /* Background color for Support, About Us, and Terms sections */
+    color: #333; /* Text color for Support, About Us, and Terms sections */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center;
+    text-align: center; /* Center text on small screens */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+    gap: 20px; /* Adjust gap between sections */
+  }
+  
+  .footer-section {
+    text-align: center; /* Center text on small screens */
+  }
+  
+  .footer-heading {
+    font-family: 'Cormorant Garamond', serif;
+    color: #000; /* Text color for Support, About Us, and Terms headings */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px; /* Add space below the logo */
+  }
+  
+  .footer-logo img {
+    max-width: 100%; /* Make the logo responsive */
+    height: auto;
+  }
+  
+  /* Media query for small screens */
+  @media screen and (min-width: 768px) {
+    .footer {
+      flex-direction: row; /* Align items in a row on larger screens */
+      justify-content: space-between;
+      text-align: left; /* Reset text alignment for larger screens */
+    }
+  
+    .footer-content {
+      flex-direction: row; /* Align items in a row on larger screens */
+    }
+  
+    .footer-logo {
+      margin-bottom: 0; /* Remove space below the logo on larger screens */
+    }
+  }
+  

@@ -1,0 +1,83 @@
+/* FeaturedSection.css */
+
+.featured-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .background-image {
+    flex: 1;
+    background-size: 100% 100%; /* Specify the width and height */
+    background-position: center;
+    height: 100%;
+    opacity: 0;
+  }
+  
+  .image1 {
+    background-image: url('src/assets/Diamond.png'); /* Replace with the actual image path */
+    animation: fadeInOut 8s infinite;
+    animation-delay: 0s;
+  }
+  
+  .image2 {
+    background-image: url('src/assets/diamondRing.png'); /* Replace with the actual image path */
+    animation: fadeInOut 8s infinite;
+    animation-delay: 4s;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 2cm;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff; /* Text color white */
+  }
+  
+  .main-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sub-heading {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: #fff; /* Button background color */
+    color: #333; /* Button text color */
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Animation for fading images */
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    25%, 75% {
+      opacity: 1;
+    }
+  }
+  

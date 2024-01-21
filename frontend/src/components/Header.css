@@ -1,0 +1,113 @@
+/* Header.css */
+
+body {
+    overflow-x: hidden;
+  }
+  
+  .header-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  color: #333;
+}
+
+.left-side {
+  margin-left: 2cm;
+  display: flex;
+}
+
+.dropdown {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.center {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+}
+
+.brand-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #333;
+  margin-left: 10px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.nav-text {
+  margin-right: 1rem;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  margin-right: 0.5cm;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .left-side {
+    margin-left: 1rem; /* Adjust for smaller screens */
+  }
+
+  .center {
+    display: none; /* Hide center content on smaller screens */
+  }
+
+  .brand-name {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .right-side {
+    margin-right: 1rem; /* Adjust for smaller screens */
+  }
+
+  .icon {
+    margin-right: 0.2rem; /* Adjust for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

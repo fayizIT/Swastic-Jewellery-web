@@ -24,7 +24,7 @@
   }
   
   .image1 {
-    background-image: url('src/assets/Diamond.png'); 
+    background-image: url('src/assets/diamond.png'); 
     animation: fadeInOut 8s infinite;
     animation-delay: 0s;
   }

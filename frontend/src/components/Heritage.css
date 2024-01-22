@@ -1,46 +1,68 @@
+/* Heritage.css */
+
 .heritage-section {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.heritage-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heritage-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.heritage-description {
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.know-more-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.heritage-image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.heritage-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .heritage-section {
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px; /* Add some padding for better aesthetics */
-    background-color: #f0f8ff; 
+    align-items: flex-start;
   }
-  
+
   .heritage-text {
-    width: 48%; /* Adjust the width as needed */
+    width: 48%;
+    text-align: left;
   }
-  
-  .heritage-heading {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .heritage-description {
-    color: grey;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .know-more-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
+
   .heritage-image-container {
-    width: 48%; /* Adjust the width as needed */
-    text-align: right; /* Align the image to the right side */
+    width: 48%;
+    text-align: right;
   }
-  
-  .heritage-image {
-    width: 400px;
-    max-height: 200px; /* Adjust the max-height as needed */
-    object-fit: cover;
-    border-radius: 5px;
-  }
-  
+}

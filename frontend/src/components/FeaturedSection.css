@@ -62,12 +62,12 @@
   }
   
   .explore-button {
-    background-color: #fff; /* Button background color */
-    color: #333; /* Button text color */
+    background-color: transparent; /* Set button background to transparent */
+    color: #fff; /* Set button text color to white */
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
-    border: none;
+    border: 1px solid #fff; /* Add a white thin border */
     cursor: pointer;
   }
   

@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { faSearch, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import UpperHeader from './UpperHeader'; 
+import UpperHeader from './upperHeader'; 
+import './Header.css'; 
 import logo from '../assets/logo.png'; 
+
 const Header = () => {
   return (
     <div>
@@ -16,8 +17,8 @@ const Header = () => {
             <div className="dropdown">
               Shop by &#9662;
               <div className="dropdown-content">
-               
-                <div>Category </div>
+                {/* Add  dropdown content here */}
+                <div>Shop Category</div>
               </div>
             </div>
           </div>
@@ -27,7 +28,7 @@ const Header = () => {
             <div className="brand-name" style={{ marginRight: '60px' }}>
               <img
                 src={logo}
-                alt="Your Logo"
+                alt="brand Logo"
                 className="logo"
                 style={{ maxWidth: '100%', maxHeight: '80px', width: 'auto', height: 'auto' }}
               />

@@ -1,5 +1,6 @@
-import './Heritage.css'; 
-import heritage  from '../assets/heritage.png'; 
+
+import './Heritage.css';
+import heritage from '../assets/heritage.png';
 
 const HeritageSection = () => {
   return (
@@ -9,7 +10,7 @@ const HeritageSection = () => {
         <p className="heritage-description">
           Swastik Rajatha has a unique approach to jewelry making and design, one that is focused on creativity and
           innovation. A brand that is positioned to lead the way for generations to come. With his passion for unique
-          designs and his talent for business, Jacob Arabo has designed iconic jewelry and watches for the world
+          designs and his talent for business, Jacob Arabo has designed iconic jewelry and watches for the worlds
           biggest stars, cultural icons, royalty, and presidents all around the globe.
         </p>
         <button className="know-more-button">Know More About Our Journey</button>

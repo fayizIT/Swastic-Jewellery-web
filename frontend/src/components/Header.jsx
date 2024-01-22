@@ -24,7 +24,7 @@ const Header = () => {
           </div>
 
           <div className="center">
-            {/* Replace " Logo" with the logo image */}
+            
             <div className="brand-name" style={{ marginRight: '60px' }}>
               <img
                 src={logo}
@@ -34,14 +34,14 @@ const Header = () => {
               />
               SWASTIK RAJATHA
             </div>
-            {/* Display the brand name immediately after the logo with some space */}
+            
           </div>
 
           <div className="right-side">
             <div className="nav-text client-care">Client Care</div>
             <div className="nav-text heritage">Heritage</div>
 
-            {/* Add Font Awesome icons for search, wishlist, and cart */}
+            
             <div className="icon"><FontAwesomeIcon icon={faSearch} /></div>
             <div className="icon"><FontAwesomeIcon icon={faHeart} /></div>
             <div className="icon"><FontAwesomeIcon icon={faShoppingCart} /></div>

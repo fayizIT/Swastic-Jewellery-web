@@ -61,22 +61,22 @@ const PapillonCollection = () => {
   };
 
   const contentStyle = {
-    width: "80%", // Adjusts width
-    textAlign: "center", // Center text
+    width: "80%", 
+    textAlign: "center", 
     marginBottom: "20px",
   };
 
   const imageStyle = {
-    width: "100%", // Take full width
-    height: "auto", // Maintain aspect ratio
-    maxWidth: "800px", // Limit maximum width
+    width: "100%", 
+    height: "auto", 
+    maxWidth: "800px", 
     marginBottom: "20px",
   };
 
   const buttonStyle = {
-    backgroundColor: "transparent", // Make background transparent
-    border: "1px solid black", // White thin border
-    color: "black", // Text color
+    backgroundColor: "transparent", 
+    border: "1px solid black", 
+    color: "black", 
     padding: "10px 20px",
     marginTop: "10px",
     cursor: "pointer",

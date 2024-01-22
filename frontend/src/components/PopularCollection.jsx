@@ -21,20 +21,20 @@ const PopularCollection = () => {
   
     const collectionContainerStyle = {
       display: "flex",
-      flexWrap: "wrap", // Adds responsive line breaks
+      flexWrap: "wrap", 
       justifyContent: "space-between",
-      margin: "0 auto", // Center on smaller screens
+      margin: "0 auto", 
     };
   
     const collectionItemStyle = {
-      flex: "0.5", // Adjust for desired number of items per row
+      flex: "0.5", 
       minWidth: "250px",
       textAlign: "center",
       margin: "10px"
     };
   
     const imageStyle = {
-      width: "100%", // Use max-width instead of fixed width
+      width: "100%", 
       height: "250px",
       objectFit: "cover",
     };

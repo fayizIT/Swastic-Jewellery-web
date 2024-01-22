@@ -1,23 +1,21 @@
-/* Footer.css */
-
 .footer {
     background-color: white; 
     color: #333; 
     padding: 20px;
     display: flex;
-    flex-direction: column; /* Stack items vertically on small screens */
+    flex-direction: column; 
     align-items: center;
-    text-align: center; /* Center text on small screens */
+    text-align: center; 
   }
   
   .footer-content {
     display: flex;
-    flex-direction: column; /* Stack items vertically on small screens */
-    gap: 20px; /* Adjust gap between sections */
+    flex-direction: column; 
+    gap: 20px; 
   }
   
   .footer-section {
-    text-align: center; /* Center text on small screens */
+    text-align: center; 
   }
   
   .footer-heading {
